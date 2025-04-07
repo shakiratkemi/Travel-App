@@ -4,22 +4,48 @@
   box-sizing: border-box;
 }
 
-body,
-html {
+body {
   height: 100%;
 }
+
+/* Header styling */
 
 .header-container {
   background-image: url("/images/Brazil.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* opacity: 0.5; */
+}
+
+.nav-container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  gap: 500px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  padding: 20px 0px 0px 0px;
+}
+
+.nav-list ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 40px;
+  font-size: 18px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
 
 .overlay {
@@ -29,8 +55,75 @@ html {
   transform: translateX(-50%);
 }
 
-.nav-container {
-  font-family: "Roboto", sans-serif;
+.header-content-container {
+  position: relative;
+}
+
+.header-content {
+  color: white;
+  position: relative;
   display: flex;
-  gap: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 10rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 300px;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+
+.header-content p {
+  letter-spacing: 7px;
+  font-size: 19px;
+  font-family: "Open Sans", Sans-serif;
+  margin: 20px 0px 20px 0px;
+  font-weight: 500;
+}
+
+.header-content button {
+  font-family: "Open Sans", Sans-serif;
+  font-size: 26px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s ease;
+  padding: 16px 32px;
+  margin-bottom: 40px;
+}
+
+.header-content button:hover {
+  background-color: white;
+  color: #000;
+}
+
+.header-socials {
+  color: white;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 40px 0px 40px 0px;
+}
+
+.header-socials p {
+  letter-spacing: 7px;
+  margin-bottom: 20px;
+}
+
+.header-social-links {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.header-social-links a {
+  color: white;
 }
