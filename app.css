@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100%;
+  overflow-x: hidden;
 }
 
 /* Header styling */
@@ -126,4 +126,421 @@ body {
 
 .header-social-links a {
   color: white;
+}
+
+/* Proposal styling */
+.proposal {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.proposal h2 {
+  color: #a4a4a4;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.proposal h6 {
+  color: #474747;
+  font-size: 50px;
+  font-family: "Poppins";
+}
+
+.proposal-cities {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.china {
+  position: relative;
+}
+
+.china img {
+  border-radius: 30px;
+  opacity: 0.9;
+  width: 600px;
+}
+
+.china-content {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.china-content a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 85px;
+  font-weight: bolder;
+}
+
+.china-content p {
+  font-family: "Open Sans", Sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.maldives img {
+  height: 100%;
+}
+
+.cities {
+  padding: 0px;
+}
+
+.italy img {
+  width: 380px;
+  height: 400px;
+  opacity: 0.9;
+}
+
+/* Discover styling */
+.discover {
+  text-align: center;
+  margin: 80px 0px 160px 0px;
+}
+
+.discover button {
+  border: 2px solid #e60449;
+  background-color: #e60449;
+  border-radius: 50px;
+  padding: 20px 100px;
+}
+
+.discover button:hover {
+  background-color: #b6323f;
+  border: 2px solid #b6323f;
+}
+
+.discover button a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+/* Holiday Styling */
+.holiday {
+  padding: 40px;
+  margin: 100px 0px 100px 0px;
+  position: relative;
+}
+
+.holiday img {
+  border-radius: 30px;
+  width: 100%;
+  background: url("/images/Brazil.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.holiday-content {
+  position: absolute;
+  top: 80px;
+  transform: translateX(35%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.holiday-content h2 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 120px;
+  text-align: center;
+  line-height: 1;
+}
+
+.holiday-content button {
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.holiday-content button:hover {
+  background-color: #fff;
+}
+
+.holiday-content button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 19px;
+}
+
+.holiday-content button a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+/* South America Styling */
+.south-america {
+  display: flex;
+
+  gap: 30px;
+  padding: 40px;
+}
+
+.arizona-content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.arizona-content h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 19px;
+}
+
+.arizona-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 90px;
+}
+
+.arizona-content p {
+  color: #aaa;
+  line-height: 1.5;
+  margin: 18px;
+  font-weight: 180;
+}
+
+.price {
+  display: flex;
+  gap: 5px;
+  align-items: flex-end;
+}
+
+.discount {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.original {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 20px;
+}
+
+.arizona-content button {
+  border: 2px solid #e60449;
+  background: #e60449;
+  border-radius: 20px;
+  padding: 10px;
+  width: 200px;
+  margin-top: 45px;
+}
+
+.arizona-content button:hover {
+  border: 2px solid #b6323f;
+  background: #b6323f;
+}
+
+.arizona-content button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.arizona-image img {
+  border-radius: 30px;
+  opacity: 0.8;
+  position: relative;
+}
+
+.arizona-image-text {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  padding: 35px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 400px;
+  position: absolute;
+  transform: translate(50%, -50%);
+}
+
+/* Package styling */
+.package-container {
+  margin-top: 300px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.package-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.package-heading h2 {
+  color: #a4a4a4;
+  font-size: 32px;
+  font-weight: 350;
+  text-transform: uppercase;
+}
+
+.package-heading h6 {
+  color: #474747;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.packages-details-container {
+  display: flex;
+  gap: 20px;
+  padding-left: 40px;
+}
+
+.packages-details {
+  position: relative;
+}
+
+.packages-image-container {
+  border-radius: 20px;
+  height: 740px;
+  border-radius: 15px;
+  width: 400px;
+  overflow: hidden;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.packages-image-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.5);
+  transform: translateY(-20px);
+  filter: drop-shadow(0 15px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 20px;
+}
+
+.packages-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.9;
+}
+
+.packages-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: absolute;
+  transform: translate(20%, 30%);
+  top: 200px;
+  font-weight: 300;
+}
+
+.packages-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.packages-content h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.packages-content #europe {
+  color: #ffffffbf;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.packages-content p {
+  color: #ffffffcc;
+  line-height: 1.5;
+}
+
+.packages-content button {
+  border: 2px solid #f3aa00;
+  background-color: #f3aa00;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.packages-content button:hover {
+  border: 2px solid #d67600;
+  background: #d67600;
+}
+
+#kazaksthan {
+  border: 2px solid #00b9f3;
+  background-color: #00b9f3;
+}
+
+#kazaksthan:hover {
+  border: 2px solid #256ca8;
+  background: #256ca8;
+}
+
+#arabia {
+  border: 2px solid #e60449;
+  background-color: #e60449;
+}
+
+#arabia:hover {
+  border: 2px solid #b6323f;
+  background-color: #b6323f;
+}
+
+/* Message styling */
+.message-mail {
+  display: flex;
+  gap: 50px;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-top: 15px;
+}
+
+.message-mail input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.message-mail button {
+  color: white;
+  background-color: #00b9f3;
+  border: 1px solid #00b9f3;
+  margin-top: 0px;
+  padding: 14px;
+  margin-right: 5px;
+  cursor: pointer;
 }
