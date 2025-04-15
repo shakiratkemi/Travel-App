@@ -12,7 +12,7 @@ body {
 /* Header styling */
 
 .header-container {
-  background-image: url("/images/Brazil.jpg");
+  background-image: url("/images/main.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -27,7 +27,6 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   gap: 500px;
-  position: absolute;
   justify-content: center;
   align-items: center;
   top: 0;
@@ -383,7 +382,7 @@ body {
 .package-container {
   margin-top: 300px;
   font-family: "Roboto", sans-serif;
-  padding-left: 40px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -414,7 +413,7 @@ body {
 .packages-details-container {
   display: flex;
   gap: 20px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 }
 
 .packages-details {
