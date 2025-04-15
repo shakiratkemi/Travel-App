@@ -86,13 +86,15 @@ body {
   margin-top: 450px;
   display: flex;
   gap: 50px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .feedback-content {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  flex: 0 0 50px;
+  width: 470px;
 }
 
 .feedback-content h2 {
@@ -138,6 +140,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  flex: 0 0 1000px;
 }
 
 .information-details {
@@ -155,6 +158,15 @@ form {
 .address-table {
   border-collapse: collapse;
 }
+
+/* .address-table tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  border-collapse: collapse;
+} */
 
 .address-table td {
   padding: 18px 18px 18px 0px;
