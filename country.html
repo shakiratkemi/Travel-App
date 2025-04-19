@@ -14,6 +14,7 @@
       src="https://kit.fontawesome.com/0e0646af9d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./app.css" />
     <link rel="stylesheet" href="./destination.css" />
     <link rel="stylesheet" href="./country.css" />
   </head>
@@ -43,7 +44,7 @@
     </section>
 
     <section class="country-image">
-      <img src="./images/mexico.jpg" alt="" />
+      <img src="./images/mexico.jpg" alt="Mexico" width="1200" />
     </section>
 
     <section class="amazing">
@@ -61,15 +62,195 @@
       </h6>
     </section>
 
-    <section class="experience-details"></section>
+    <section class="experience-details">
+      <div class="entrance">
+        <div class="title">Entrance to the museums</div>
+        <div class="description">50% discount on all admissions</div>
+      </div>
 
-    <section class="tour-map"></section>
+      <div class="entrance">
+        <div class="title">Travel with children and pets</div>
+        <div class="description">Possibility to rent the stroller</div>
+      </div>
 
-    <section class="gallery"></section>
+      <div class="entrance">
+        <div class="title">Package specifications</div>
+        <div class="description">
+          <ul class="description-lists">
+            <li>
+              <i class="fa-solid fa-check"></i>Travel cancellation insurance
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i>Breakfast and dinner included
+            </li>
+            <li><i class="fa-solid fa-check"></i> Health care included</li>
+          </ul>
+        </div>
+      </div>
 
-    <section class="daily-activities"></section>
+      <div class="entrance">
+        <div class="title">Services NOT included</div>
+        <div class="description">
+          <ul class="description-lists" id="services">
+            <li>
+              <i class="fa-solid fa-xmark"></i>Lunch not included in the package
+            </li>
+            <li>
+              <i class="fa-solid fa-xmark"></i>
+              Baggage protection insurance
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <section class="country-proposal"></section>
+    <section class="tour-map amazing">
+      <h1>Tour Map</h1>
+    </section>
+
+    <section class="gallery amazing">
+      <h1>Gallery</h1>
+      <div class="gallery-images-container">
+        <div class="gallery-images">
+          <img src="./images/pepper.jpeg" alt="Pepper" />
+          <img src="./images/mask1.jpeg" alt="Mask" />
+          <img src="./images/prague.jpeg" alt="Prague" />
+        </div>
+
+        <div class="gallery-images">
+          <img src="./images/mask.jpeg" alt="Mask" />
+          <img src="./images/guitar.jpeg" alt="Guitar" />
+          <img src="./images/mexico1.jpeg" alt="mexico" />
+        </div>
+      </div>
+    </section>
+
+    <section class="daily-activities amazing">
+      <h1>Day by Day</h1>
+      <h6>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Egestas purus
+        viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus
+        aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi
+        porta lorem mollis. Morbi tristique senectus et netus. Mattis
+        pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et
+        molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed
+        ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at
+        consectetur lorem.
+      </h6>
+
+      <div class="activities-details">
+        <div class="activity">
+          <div class="number">1</div>
+          <div class="content">
+            <span id="day"> day 1</span> - Departure at the airport and arrival
+            at the hotel
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="number">2</div>
+          <div class="content">
+            <span id="day"> day 2</span> - Visit the main museums and lunch
+            included
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="number">3</div>
+          <div class="content">
+            <span id="day"> day 3</span> - Excursion in the natural oasis and
+            picnic
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="number">4</div>
+          <div class="content">
+            <span id="day"> day 4</span> - Transfer to the airport and return to
+            the agency
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="number">5</div>
+          <div class="content">
+            <span id="day"> day 5</span> - Lorem ipsum dolor sit amet,
+            consectetur
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="country-proposal">
+      <section class="package-container" id="packages">
+      <div class="package-heading">
+        <h2>Our Proposals</h2>
+        <h6>Our Packages</h6>
+      </div>
+
+      <div class="packages-details-container">
+        <div class="packages-details">
+          <div class="packages-image-container">
+            <img src="./images/san francisco.jpeg" alt="San Francisco" />
+          </div>
+
+          <div class="packages-content">
+            <h1><a href="./country.html">San Francisco</a></h1>
+            <div id="europe">
+              <h4>America</h4>
+              <h3>CULTURAL</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet,
+              <br />
+              consectetur adipisicing elit. <br />Aliquid, similique?
+            </p>
+            <button>Detail</button>
+          </div>
+        </div>
+
+        <div class="packages-details">
+          <div class="packages-image-container">
+            <img src="./images/los angeles.jpeg" alt="Prague" />
+          </div>
+
+          <div class="packages-content">
+            <h1><a href="./country.html">Prague</a></h1>
+            <div id="europe">
+              <h4>America</h4>
+              <h3>CULTURAL</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet,
+              <br />
+              consectetur adipisicing elit. <br />Aliquid, similique?
+            </p>
+            <button id="kazaksthan">Detail</button>
+          </div>
+        </div>
+
+        <div class="packages-details">
+          <div class="packages-image-container">
+            <img src="./images/italy1.jpeg" alt="Italy" />
+          </div>
+
+          <div class="packages-content">
+            <h1><a href="./country.html">Italy</a></h1>
+            <div id="europe">
+              <h4>Europe</h4>
+              <h3>CULTURAL</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet,
+              <br />
+              consectetur adipisicing elit. <br />Aliquid, similique?
+            </p>
+            <button id="arabia">Detail</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="background-wrapper">
       <section class="message">
